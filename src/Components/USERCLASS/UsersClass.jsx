@@ -20,7 +20,11 @@ class UsersClass extends Component {
                 })
             }
         )
-        .catch()
+        .catch(
+            (err)=> {
+            console.log(err)
+            }
+        )
     }
     render() {
         return (
